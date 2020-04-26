@@ -1,0 +1,158 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Comic Neue', cursive;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+}
+.header{
+	padding:60px;
+	text-align:center;
+	background-image:url("img/background.jpg");
+	background-size: cover;
+	color:white;
+	width: 100%;
+}
+.navbar{
+	display:flex;
+	background-color:#333;
+}
+.navbar a {
+	color:white;
+	padding: 14px 20px;
+	text-decoration:none;
+	text-align:center;
+}
+.navbar a:hover{
+	background-color:white;
+	color:black;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.side{
+	flex:30%;
+	background-color:#f1f1f1;
+	padding:20px;
+}
+.main{
+	flex:70%;
+	background-color:dark-gray;
+	padding:0px;
+}
+.fakeimg {
+	background-color:darkgrey;
+	width:100%;
+	padding:20px;
+	font-size:25px;
+}	
+
+.footer{
+	padding:20;
+	text-align:center;
+	background: url("https://namobilu.com/u/img/ib/158/060/60158-1.jpg" );
+	background-size: cover;
+	color: #CFCFCF;
+}
+
+label{
+	font-size:18px;
+}
+input{
+	width:500px;
+	padding:12px 28px;
+	margin:8px 0;
+	box-sizing:border-box;
+}
+input:focus{
+	border: 2px solid #75FFF7;
+}
+input[type=submit]{
+	background-color:white;
+	color:#333;
+	font-size:18px;
+	width:100px;
+	bolder: 2px solid #75FFF7;
+	border-radius:5px;
+	padding:10px;
+	text-decoration:none;
+}
+input[type=submit]:hover{
+	background-color:#333;
+	color:white;
+	font-size:18px;
+	width:100px;
+	padding:10px;
+	cursor:pointer;
+	transition-duration: 0.5s;
+}
+textarea{
+	width:500px;
+	height:150px;
+	padding:12px 20px;
+	box-sizing:border-box;
+	border: 2px solid #ccc;
+	border-radius:4px;
+	background-color:#f8f8f8;
+	resize:none;
+}
+textarea:focus{
+	border: 2px solid #75FFF7;
+}
+textarea, input:focus{
+	outline:none;
+}
+.anchor{
+	position:relative;
+}
+.arrow-up{
+	position:fixed;
+	bottom:50px;
+	left:90%;;
+}
+.instagram {
+	 background:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+     linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+     linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+ }
+.discord{
+	background: linear-gradient(45deg,#A5C4D2, #0F4A81);
+}
+.social {
+	background-color: darkgrey;
+	width:100%;
+	padding-bottom:12px;
+	font-size:25px;
+}
+a{
+	text-decoration:none;
+}
+
+#name{
+	opacity: 0.7;
+}
+#name:hover{
+	opacity: 1;
+}
+#subject{
+	opacity: 0.7;
+}
+#subject:hover{
+	opacity: 1;
+} 
+#mail{
+	opacity: 0.7;
+}
+#mail:hover{
+	opacity: 1;
+}
+#message{
+	opacity: 0.7;
+}
+#message:hover{
+	opacity: 1;
+}
